@@ -1,3 +1,6 @@
+body {
+	background-image: url("2400-seamless-texture-wood-old-oak-or-modern-wood-texture.jpg");
+}
 .title {
 	color:red ;
 	display: flex;
@@ -33,4 +36,15 @@
 }
 .button-top:active {
 	box-shadow: skyblue 0 10px 10px inset;
+}
+.Password {
+	color: black;
+	font-family: impact ;
+	font-size: 20px;
+	text-align:justify; text-align-last:justify;
+	margin: 0px 700px;
+	padding: 10px 50px;
+	font-size: 10px;
+	position: relative;
+   height: 50px;
 }
