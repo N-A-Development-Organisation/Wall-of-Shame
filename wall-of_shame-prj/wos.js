@@ -62,7 +62,11 @@ var removeBlue = function removeBlue(){
     return this.NBlue ;
 }
 var notes = [];
-
+var display = function(){
+    for(var i = 0 ; i<notes.length ; i++){
+        console.log (notes[i].name + ' note have '+notes[i].NRed+' red pins '+ notes[i].NBlue +' blue pins '+notes[i].NYellow+' yellow pins' )
+    }
+}
 
 $("#Noteadd").on("click",function(){ 
 	var NoteName= $("#inputName").val()
@@ -74,4 +78,8 @@ $("#Noteadd").on("click",function(){
 
 	}
 );
+
+$("#board").append(('<div id='stats'></div>'));
+$("#stats").html('display()')
+
 
