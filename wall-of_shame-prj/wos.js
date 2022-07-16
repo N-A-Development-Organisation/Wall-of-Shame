@@ -33,6 +33,7 @@ function createNote (name) {
         addYellow : addYellow ,
         removeYellow : removeYellow , 
         addBlue : addBlue,
+        removeBlue: removeBlue
     }
 }
 var notes = [];
@@ -95,7 +96,7 @@ var notes = [];
 var displayONBoard2 = function(){
     var disp = '';
     for(var i = 0 ; i<notes.length ; i++){
-    disp ="<div><h1>" +notes[i].name +'<h1>'+notes[i].NRed+'<br>'+ notes[i].NBlue +'<br>'+notes[i].NYellow+"<br></div><br><br>" + disp
+    disp ="<div><h1>" +notes[i].name +'<h1>'+notes[i].NRed+'<br>'+ notes[i].NBlue +'<br>'+notes[i].NYellow+"<br></div>" + disp
     }
     $("#Board").html("<div>"+disp+"</div>")
 }
@@ -122,13 +123,81 @@ $("#removeRedpin").on("click",function(){
     if (notes[0]=== undefined){
         alert(" Put someone on shame ");
     }
-    var NameInred = $("#NameOnNote1").val()
+    var NameInred = $("#NameOnNote2").val()
     if (NameInred === ''){
         alert(" Add someone please ")
     }
     for (var i = 0; i < notes.length; i++) {
         if (NameInred === notes[i].name) {
             notes[i].removeRed();
+            display();
+            displayONBoard2()
+        } 
+    }
+})
+
+$("#addBluepin").on("click",function(){
+    if (notes[0]=== undefined){
+        alert(" Put someone on shame ");
+    }
+    var NameInred = $("#NameOnNote3").val()
+    if (NameInred === ''){
+        alert(" Add someone please ")
+    }
+    for (var i = 0; i < notes.length; i++) {
+        if (NameInred === notes[i].name) {
+            notes[i].addBlue();
+            display();
+            displayONBoard2()
+        } 
+    }
+})
+
+$("#removeBluepin").on("click",function(){
+    if (notes[0]=== undefined){
+        alert(" Put someone on shame ");
+    }
+    var NameInred = $("#NameOnNote4").val()
+    if (NameInred === ''){
+        alert(" Add someone please ")
+    }
+    for (var i = 0; i < notes.length; i++) {
+        if (NameInred === notes[i].name) {
+            notes[i].removeBlue();
+            display();
+            displayONBoard2()
+        } 
+    }
+})
+
+$("#addYellowpin").on("click",function(){
+    if (notes[0]=== undefined){
+        alert(" Put someone on shame ");
+    }
+    var NameInred = $("#NameOnNote5").val()
+    if (NameInred === ''){
+        alert(" Add someone please ")
+    }
+    for (var i = 0; i < notes.length; i++) {
+        if (NameInred === notes[i].name) {
+            notes[i].addYellow();
+            display();
+            displayONBoard2()
+        } 
+    }
+})
+
+$("#removeYellowpin").on("click",function(){
+    if (notes[0]=== undefined){
+        alert(" Put someone on shame ");
+    }
+    var NameInred = $("#NameOnNote6").val()
+    if (NameInred === ''){
+        alert(" Add someone please ")
+    }
+    for (var i = 0; i < notes.length; i++) {
+        if (NameInred === notes[i].name) {
+            notes[i].removeYellow();
             display();
             displayONBoard2()
         } 

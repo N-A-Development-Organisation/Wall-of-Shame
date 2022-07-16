@@ -56,7 +56,103 @@ body {
    border: 0px solid transparent;
    border-radius: 4px;
    text-decoration: none;
-   background-color: #b9efff;
+   background-color: #a872e8;
+   box-shadow: rgb(19 170 82 / 40%) 0px 2px 3px;
+   color: black;
+   font-size: 14px;
+   font-weight: 400;
+   height: 36px;
+   transition: all 150ms ease-in-out 0s;
+}
+#NameOnNote1{
+   display: inline-block;
+   outline: 0;
+   appearance: none;
+   padding: 0px 12px;
+   border: 0px solid transparent;
+   border-radius: 4px;
+   text-decoration: none;
+   background-color: #ee243c;
+   box-shadow: rgb(19 170 82 / 40%) 0px 2px 3px;
+   color: black;
+   font-size: 14px;
+   font-weight: 400;
+   height: 36px;
+   transition: all 150ms ease-in-out 0s;
+}
+#NameOnNote2{
+   display: inline-block;
+   outline: 0;
+   appearance: none;
+   padding: 0px 12px;
+   border: 0px solid transparent;
+   border-radius: 4px;
+   text-decoration: none;
+   background-color: #ee243c;
+   box-shadow: rgb(19 170 82 / 40%) 0px 2px 3px;
+   color: black;
+   font-size: 14px;
+   font-weight: 400;
+   height: 36px;
+   transition: all 150ms ease-in-out 0s;
+}
+#NameOnNote3{
+   display: inline-block;
+   outline: 0;
+   appearance: none;
+   padding: 0px 12px;
+   border: 0px solid transparent;
+   border-radius: 4px;
+   text-decoration: none;
+   background-color: #5468ff;
+   box-shadow: rgb(19 170 82 / 40%) 0px 2px 3px;
+   color: black;
+   font-size: 14px;
+   font-weight: 400;
+   height: 36px;
+   transition: all 150ms ease-in-out 0s;
+}
+#NameOnNote4{
+   display: inline-block;
+   outline: 0;
+   appearance: none;
+   padding: 0px 12px;
+   border: 0px solid transparent;
+   border-radius: 4px;
+   text-decoration: none;
+   background-color: #5468ff;
+   box-shadow: rgb(19 170 82 / 40%) 0px 2px 3px;
+   color: black;
+   font-size: 14px;
+   font-weight: 400;
+   height: 36px;
+   transition: all 150ms ease-in-out 0s;
+}
+#NameOnNote5{
+   display: inline-block;
+   outline: 0;
+   appearance: none;
+   padding: 0px 12px;
+   border: 0px solid transparent;
+   border-radius: 4px;
+   text-decoration: none;
+   background-color: #FFDD49;
+   box-shadow: rgb(19 170 82 / 40%) 0px 2px 3px;
+   color: black;
+   font-size: 14px;
+   font-weight: 400;
+   height: 36px;
+   transition: all 150ms ease-in-out 0s;
+}
+#NameOnNote6{
+   display: inline-block;
+   outline: 0;
+   appearance: none;
+   padding: 0px 12px;
+   border: 0px solid transparent;
+   border-radius: 4px;
+   text-decoration: none;
+   background-color: #FFDD49;
    box-shadow: rgb(19 170 82 / 40%) 0px 2px 3px;
    color: black;
    font-size: 14px;
@@ -65,6 +161,108 @@ body {
    transition: all 150ms ease-in-out 0s;
 }
 #Noteadd {
+	display: inline-block;
+   outline: 0;
+   appearance: none;
+   padding: 0px 12px;
+   border: 0px solid transparent;
+   border-radius: 4px;
+   text-decoration: none;
+   cursor: pointer;
+   background-color: #e8faff;
+   box-shadow: rgb(19 170 82 / 40%) 0px 2px 3px;
+   color: black;
+   font-size: 14px;
+   font-weight: 400;
+   height: 36px;
+   transition: all 150ms ease-in-out 0s;
+}
+#addRedpin {
+	display: inline-block;
+   outline: 0;
+   appearance: none;
+   padding: 0px 12px;
+   border: 0px solid transparent;
+   border-radius: 4px;
+   text-decoration: none;
+   cursor: pointer;
+   background-color: #e8faff;
+   box-shadow: rgb(19 170 82 / 40%) 0px 2px 3px;
+   color: black;
+   font-size: 14px;
+   font-weight: 400;
+   height: 36px;
+   transition: all 150ms ease-in-out 0s;
+}
+#removeRedpin {
+	display: inline-block;
+   outline: 0;
+   appearance: none;
+   padding: 0px 12px;
+   border: 0px solid transparent;
+   border-radius: 4px;
+   text-decoration: none;
+   cursor: pointer;
+   background-color: #e8faff;
+   box-shadow: rgb(19 170 82 / 40%) 0px 2px 3px;
+   color: black;
+   font-size: 14px;
+   font-weight: 400;
+   height: 36px;
+   transition: all 150ms ease-in-out 0s;
+}
+#addBluepin {
+	display: inline-block;
+   outline: 0;
+   appearance: none;
+   padding: 0px 12px;
+   border: 0px solid transparent;
+   border-radius: 4px;
+   text-decoration: none;
+   cursor: pointer;
+   background-color: #e8faff;
+   box-shadow: rgb(19 170 82 / 40%) 0px 2px 3px;
+   color: black;
+   font-size: 14px;
+   font-weight: 400;
+   height: 36px;
+   transition: all 150ms ease-in-out 0s;
+}
+#removeBluepin {
+	display: inline-block;
+   outline: 0;
+   appearance: none;
+   padding: 0px 12px;
+   border: 0px solid transparent;
+   border-radius: 4px;
+   text-decoration: none;
+   cursor: pointer;
+   background-color: #e8faff;
+   box-shadow: rgb(19 170 82 / 40%) 0px 2px 3px;
+   color: black;
+   font-size: 14px;
+   font-weight: 400;
+   height: 36px;
+   transition: all 150ms ease-in-out 0s;
+}
+#addYellowpin {
+	display: inline-block;
+   outline: 0;
+   appearance: none;
+   padding: 0px 12px;
+   border: 0px solid transparent;
+   border-radius: 4px;
+   text-decoration: none;
+   cursor: pointer;
+   background-color: #e8faff;
+   box-shadow: rgb(19 170 82 / 40%) 0px 2px 3px;
+   color: black;
+   font-size: 14px;
+   font-weight: 400;
+   height: 36px;
+   transition: all 150ms ease-in-out 0s;
+}
+#removeYellowpin {
 	display: inline-block;
    outline: 0;
    appearance: none;
@@ -97,3 +295,25 @@ h1 {
 	font-size: 16px;
 
 }
+#rbk{
+	left: 85%;
+	position: absolute;
+	top: 3%;
+}
+#Board div div {
+ color: black;
+ margin: 20px 20px 20px 20px;
+ padding: 20px 20px 20px 20px;
+ background-size: 200px;
+ flex-wrap: wrap;
+ flex: center ;
+ background-image: url('file:///C:/Users/ahmed%20sassi/Desktop/Nouveau%20dossier/Nouveau%20dossier/Wall-of-Shame/wall-of_shame-prj/1-removebg-preview%20(1).png');
+ background-size: 300px;
+ padding-bottom: 200px;
+ padding-right: 250px;
+ display: flex;
+ align-items: center;
+ font-size: 50px;
+ font-style:Courier New, monospace;
+
+   }
